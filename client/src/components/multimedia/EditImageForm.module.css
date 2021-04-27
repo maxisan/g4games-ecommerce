@@ -1,0 +1,95 @@
+.ventanaGeneral {
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    padding: 5px;
+    text-align: center;    
+}
+
+
+.previewImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    border: rgb(194, 187, 194) 3px dashed;
+    height: 400px;
+    text-align: center;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.previewImage img {
+    max-height: 350px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.previewImage p {
+    align-self: flex-end;
+}
+
+.inputs {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(194, 187, 194);
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.labelInactive {
+    display: none;
+}
+
+.labelActive {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px 
+}
+
+.form {
+    text-align: left;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.radio {
+    font-size: 18px;
+    margin: 15px 10px;
+}
+
+.radio label {
+    margin-left: 5px;
+}
+
+.submitButton {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px;    
+}
+
+.cancelButton {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: rgb(199, 199, 199);
+    color: rebeccapurple;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 10px;
+    
+}
